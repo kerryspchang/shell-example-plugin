@@ -1,0 +1,63 @@
+#shellConfigContainer{
+	width: 100%;
+	height: 100%;
+}
+
+#shellConfigTitle > div {
+	font-size: 1.5em;
+	margin: 15px 0px 15px 0px;
+	font-weight: bold;
+}
+
+#shellConfigContent {
+	font-size: 1em;		
+	padding:20px;
+	overflow: scroll;
+}
+
+#shellConfigContent .configItemTitle {
+	font-weight: bold;
+}
+
+#shellConfigContent li {
+	margin-bottom: 20px;
+}
+
+#shellConfigContent input[type="text"] {
+	width:50%;
+}
+
+#shellConfigContent #configButtons {
+	text-align: right;	
+}
+
+#shellConfigContent #configButtons button{
+	margin-right: 10px
+}
+
+#shellConfigContent .configSourceIns {
+	margin-top: 5px;
+}
+
+#shellConfigContent .configSourceLinks {
+	font-size: 0.8em;
+	margin: 10px 0px 15px 0px;
+}
+
+#shellConfigContainer #configWebviewContainer {
+	display:none; 
+	width:100%; 
+	height:60%;
+}
+
+#shellConfigContainer #webviewSource {	
+	background: var(--color-stripe-02);
+	color: hsla(240, 2%, 90%, 1);
+	font-size: 0.8em;
+	padding:5px 20px 5px 20px;
+}
+
+#shellConfigContainer #shellConfigWebview {	
+	height:calc(100% - 27px)
+	;
+}

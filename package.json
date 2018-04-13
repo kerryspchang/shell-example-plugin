@@ -1,0 +1,22 @@
+{
+  "name": "shell-project-plugin",
+  "version": "0.0.1",
+  "description": "A IBM Cloud Shell plugin for using Github projects",
+  "main": "plugin.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kerry Chang",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "expand-home-dir": "0.0.3",
+    "fs-extra": "^5.0.0",
+    "jquery": "^3.3.1",
+    "simple-git": "^1.92.0",
+    "yamljs": "^0.3.0"
+  }
+}
